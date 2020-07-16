@@ -8,7 +8,7 @@ The host program is written in python and all kernels are run using python.
 
 Two main scripts :
 
-	Convolution.py - runs 3 convolution kernels( Sobel X, Sobel Y and box filter kernel).
+	convolution.py - runs 3 convolution kernels( Sobel X, Sobel Y and box filter kernel).
 	The program also calculates execution times.
 	All the calculations are done on grayscale images that can be found in images folder.
 	
@@ -19,4 +19,14 @@ Two main scripts :
 
 
 
-# pisi kasnije
+## Matrix multiplication
+
+Two main scripts : 
+
+	mat_block_mul.py - executes matrix multiplication in block form. 
+	It is executed by blocks size of 32 x 32. 
+	Supporting functions and constants can be fount in utilities.
+	
+	matrix.py - creates two matrix 3840 x 3840 and multies them the straight forward way. 
+	Works in local work grup size of 16 x 16. Slower the the mat_block_mul execution. 
+	
