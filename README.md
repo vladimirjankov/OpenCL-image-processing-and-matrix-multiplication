@@ -41,3 +41,7 @@ Works in local work grup size of 16 x 16. Slower the the mat_block_mul execution
 ####  Benchmarks on cpu on intel based cpu  
 <img src="https://i.ibb.co/3FKTyRb/sobel-table.png" alt="Results"/>
 
+### Matrix multiplication:  
+
+#### Benchmarks
+<img src="https://i.ibb.co/42tPwRc/matrix-multiplication.png" alt="Results"/>
