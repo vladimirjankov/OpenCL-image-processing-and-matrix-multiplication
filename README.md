@@ -42,10 +42,10 @@ Works in local work grup size of 16 x 16. Slower the the mat_block_mul execution
 
 ### Image processing:  
 ####  Original image  
-<img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true" alt="Grayscale image" width="200"/>  
+<img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true" alt="Grayscale image" width="350"/>  
 
 ####  Sobel image  
-<img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/new_grayscale_sobel_kernel.png?raw=true" alt="Sobel grayscale image" width="200"/>  
+<img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/new_grayscale_sobel_kernel.png?raw=true" alt="Sobel grayscale image" width="350"/>  
 
 ####  Benchmarks on cpu on intel based cpu  
 <img src="https://i.ibb.co/3FKTyRb/sobel-table.png" alt="Results"/>
