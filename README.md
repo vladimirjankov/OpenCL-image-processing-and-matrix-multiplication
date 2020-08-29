@@ -29,8 +29,13 @@ Supporting functions and constants can be fount in utilities.
 matrix.py - creates two matrix 3840 x 3840 and multies them the straight forward way. 
 Works in local work grup size of 16 x 16. Slower the the mat_block_mul execution. 
 	
-### Results
+## Results
 
-###### Image processing:
-Original image
-![alt text](https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true =250x250)
+### Image processing:
+Original image  
+<img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true" alt="Grayscale image" width="200"/>  
+Sobel image  
+<img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/new_grayscale_sobel_kernel.png?raw=true" alt="Sobel grayscale image" width="200"/>  
+Benchmarks on cpu on intel based cpu  
+<img src="https://ibb.co/8xkmDYw" alt="Results" width="200"/>
+
