@@ -17,6 +17,15 @@ measured. The non optimised version calculates first X then Y kernel and later a
 the optimised version does all calculations in one kernel.
 All the calculations are done on grayscale images that can be found in images folder.
 
+### Sobel algorithm  
+
+The Sobel operator, sometimes called the Sobel - Feldman operator or Sobel filter, is used in image processing and computer vision, particularly within edge detection algorithms where it creates an image emphasising edges. Technically, it is a discrete differentiation operator, computing an approximation of the gradient of the image intensity function.  At each point in the image, the result of the Sobel - Feldman operator is either the corresponding gradient vector or the norm of this vector.  The Sobel - Feldman operator is based on convolving the image with a small, separable, and integer - valued filter in the horizontal and vertical directions and is therefore, relatively inexpensive in terms of computations. On the other hand, the gradient approximation that it produces is relatively crude, in particular, for high-frequency variations in the image.    
+  
+The operator uses two 3×3 kernels which are convolved with the original image to calculate approximations of the derivatives – one for horizontal changes, and one for vertical. If A is defined as the source image, and G_xand G_y as two images which at each point contain the vertical and horizontal derivative approximations respectively, the computations are as follows:   
+<img src="https://i.ibb.co/rG7Js0V/sobel-kernel.png" alt="Results"/>  
+where * represents the 2 - dimensional signal processing convolution operation. 
+The resulting image is calculated by squaring Gx  and Gy and getting the square root of their addition.
+
 
 ## Matrix multiplication
 
