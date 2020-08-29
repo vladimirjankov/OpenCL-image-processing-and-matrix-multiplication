@@ -31,6 +31,6 @@ Works in local work grup size of 16 x 16. Slower the the mat_block_mul execution
 	
 ### Results
 
-###Image processing:
+###### Image processing:
 Original image
-![alt text](https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true)
+![alt text](https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true =250x250)
