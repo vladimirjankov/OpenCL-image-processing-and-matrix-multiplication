@@ -39,7 +39,7 @@ matrix.py - creates two matrix 3840 x 3840 and multies them the straight forward
 Works in local work grup size of 16 x 16. Slower the the mat_block_mul execution. 
 	
 ## Results
-
+The result of the algorithm can be seen in the following images. 
 ### Image processing:  
 ####  Original image  
 <img src="https://github.com/vladimirjankov/OpenCL-image-processing-and-matrix-multiplication/blob/master/Image%20processing/images/grayscale.jpg?raw=true" alt="Grayscale image" width="350"/>  
